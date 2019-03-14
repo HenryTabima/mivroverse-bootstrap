@@ -2,6 +2,10 @@ nav svg {
   fill: white;
 }
 
+.footer-svg{
+    fill: #dc3545;
+}
+
 .small-text {
   font-size: .8rem !important;
 }
