@@ -2,14 +2,38 @@ nav svg {
   fill: white;
 }
 
-.footer-svg{
-    fill: #dc3545;
+.footer-svg {
+  fill: #dc3545;
 }
 
 .small-text {
   font-size: .8rem !important;
 }
-body{
+
+body {
+  padding-top: 50px;
+}
+
+@media (min-width: 576px) {
+  body {
+    padding-top: 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
     padding-top: 85px;
-    
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: 95px;
+  }
 }
